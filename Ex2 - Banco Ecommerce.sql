@@ -30,3 +30,5 @@ VALUES
 SELECT * FROM tb_produtos WHERE preco > 500;
 
 SELECT * FROM tb_produtos WHERE preco < 500;
+
+UPDATE tb_produtos SET Quantidade = 50 WHERE Id = 8;
